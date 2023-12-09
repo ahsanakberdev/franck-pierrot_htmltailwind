@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Franck Pierrot</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+</head>
+<body class="font-Raleway">
+    <!-- HEADER -->
+    <header class="lg:py-8 md:py-6 py-5 sticky top-0 bg-white z-20">
+        <div class="container">
+            <div class="flex items-center lg:justify-between justify-between">
+                <div>
+                    <a href="index.html">
+                       <img src="../src/img/header-logo.svg" class="xl:w-auto lg:w-60 w-44" alt="">
+                    </a>
+                </div>
+                <div class="menu-trigger lg:hidden block cursor-pointer" onclick="openMenu()">
+                    <img src="../src/img/menu-trigger.svg" width="40px" alt="">
+                </div>
+                <div class="navigations-items lg:flex-row flex-1 flex-col lg:static fixed lg:opacity-100 opacity-0 lg:visible invisible text-center lg:h-auto h-screen lg:overflow-visible overflow-hidden lg:bg-transparent bg-lightBlue-200 mobile-navigation top-0 lg:z-auto -left-96 lg:w-auto w-full bottom-0 transition-all duration-500 ease-in-out flex lg:justify-end justify-center items-center" id="mobileNav"">
+                    <ul class="flex lg:flex-row flex-col justify-between">                      
+                        <li><a href="index.html" class="text-dark-100">ACCUEIL</a></li>
+                        <li><a href="who-am-i.html">QUI SUISJE ?</a></li>
+                        <li><a href="conference.html">Conférence</a></li>
+                        <li><a href="">Conseils</a></li>
+                        <li><a href="">Témoignages</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                    <div class="lg:hidden block cancel absolute right-4 top-4 cursor-pointer" onclick="openMenu()">
+                        <img src="../src/img/cancel.svg" class="w-8" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- HEADER -->
+
+    <!-- BANNER -->
+    <section>
+        <div class="banner-slider !mb-0">
+            <div>
+                <div class="banner bg-banner">
+                    <div class="container lg:pl-40">
+                        <h1>Une conféttrence époustouflante qui donne envie de s’engager pour le collectif</h1>
+                        <div class="lg:pt-7 pt-6 lg:pb-10 pb-6 flex max-lg:justify-center">
+                            <span class="h-2 w-20 bg-lightBlue-200 block"></span>
+                        </div>
+                        <div>
+                            <a href="" class="btn">
+                                VOIR la vidéo
+                            </a>
+                            <a href="" class="btn !bg-lightBlue-200 lg:mt-5 mt-4">
+                                Découvrez la conférence
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="banner bg-banner">
+                    <div class="container lg:pl-40">
+                        <h1>Une conféttrence époustouflante qui donne envie de s’engager pour le collectif</h1>
+                        <div class="lg:pt-7 pt-6 lg:pb-10 pb-6 flex max-lg:justify-center">
+                            <span class="h-2 w-20 bg-lightBlue-200 block"></span>
+                        </div>
+                        <div>
+                            <a href="" class="btn">
+                                VOIR la vidéo
+                            </a>
+                            <a href="" class="btn !bg-lightBlue-200 lg:mt-5 mt-4">
+                                Découvrez la conférence
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="banner bg-banner">
+                    <div class="container lg:pl-40">
+                        <h1>Une conféttrence époustouflante qui donne envie de s’engager pour le collectif</h1>
+                        <div class="lg:pt-7 pt-6 lg:pb-10 pb-6 flex max-lg:justify-center">
+                            <span class="h-2 w-20 bg-lightBlue-200 block"></span>
+                        </div>
+                        <div>
+                            <a href="" class="btn">
+                                VOIR la vidéo
+                            </a>
+                            <a href="" class="btn !bg-lightBlue-200 lg:mt-5 mt-4">
+                                Découvrez la conférence
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- BANNER -->
+
+    <!-- RESERVATION -->
+    <section class="bg-lightBlue-200 lg:py-7 md:py-6 py-5">
+        <div class="container">
+            <div class="flex max-sm:flex-col items-center lg:justify-center md:justify-around justify-evenly">
+                <h2 class="section-heading text-dark-100 sm:text-right text-center">
+                    Résterver dès maintenant <br class="max-sm:hidden">
+                    VOTRE conférence ! 
+                </h2>
+                <div class="lg:ml-10 ml-0 max-sm:mt-4">
+                    <a href="" class="btn">
+                        CONTACTEZ-MOI
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- RESERVATION -->
+
+    <!-- PRESENTAION -->
+    <section class="bg-presentation bg-cover bg-center bg-no-repeat relative"> 
+        <div class="container">
+            <div class="flex lg:flex-nowrap flex-wrap">
+                <div class="lg:w-2/4 w-full">
+                    <div class="xl:px-20 lg:px-14 md:px-10 text-center lg:pt-10 pt-8">
+                        <h2 class="lg:text-3xl md:text-2xl text-xl text-white font-normal">
+                            FRANCK<span class="font-bold text-lightBlue-200">PIERROT</span>
+                        </h2>
+                        <h3 class="common-style text-white lg:pt-4 pt-3">Ex-GIGN, conférencier <br>& mentor de managers</h3>
+                        <div class="lg:pt-8 md:pt-6 pt-5">
+                            <h4 class="common-style text-lightBlue-200">“ BETTER TOGETHER ”
+                                <span class="text-white block">
+                                    C’est la force du collectif qui fait la 
+                                    réussite d’une entreprise et non 
+                                    celle d’une seule personne 
+                                </span>
+                            </h4>
+                            <p class="section-paragraph lg:pt-4 pt-3 text-white lg:px-8">
+                                Pérenniser le capital managérial de votre entreprise
+                                en faisant vivre à vos managers une expérience 
+                                unique et marquante                        
+                            </p>
+                            <div class="lg:pt-12 md:pt-10 pt-8">
+                                <a href="" class="btn mx-auto">
+                                    DÉCOUVRIR MON PARCOURS
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="lg:w-2/4 w-full max-lg:mt-5">
+                    <div>
+                        <img src="../src/img/presentation-img.png" class="max-lg:mx-auto max-sm:w-2/4 max-sm:mx-auto" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 px-3 w-full bg-linearGradient text-center lg:pt-8 pt-4 lg:pb-[50px] md:pb-10 pb-6">
+            <h2 class="section-heading text-lightBlue-200">
+                ILS PARLENT DE MOI
+            </h2>
+            <div class="flex justify-center lg:pt-8 pt-6">
+                <div>
+                    <img src="../src/img/welcome.svg" alt="">
+                </div>
+                <div class="lg:ml-14 ml-12">
+                    <img src="../src/img/les.svg" alt="">
+                </div>
+                <div class="lg:ml-14 ml-12">
+                    <img src="../src/img/sante.svg" alt="">
+                </div>
+                <div class="lg:ml-14 ml-12">
+                    <img src="../src/img/ageff.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- PRESENTAION -->
+
+    <!-- CONFERENCE -->
+    <section class="lg:pt-10 md:pt-8 pt-6">
+        <div class="container text-center">
+            <div class="text-center">
+                <h2 class="section-heading text-dark-100">
+                    extrait de conférence 
+                </h2>
+                <div class="lg:pt-6 pt-5">
+                    <img src="../src/img/video.png" class="mx-auto" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- CONFERENCE -->
+
+    <!-- ABOUT -->
+    <section class="bg-about overflow-hidden bg-cover bg-center bg-no-repeat lg:py-11 md:py-9 py-8 lg:mt-20 md:mt-16 mt-12">
+        <div class="container">
+            <div class="flex lg:flex-nowrap flex-wrap items-center">
+                <div class="lg:w-2/4 w-full">
+                    <div class="drop-shadow-darkShadow lg:mr-14 mr-0">
+                        <img src="../src/img/about-img.png" class="lg:ml-auto mx-auto max-sm:w-2/4 max-sm:mx-auto" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-2/4 w-full max-lg:mt-5">
+                    <div class="xl:w-[70%] w-full text-center">
+                        <h2 class="section-heading text-dark-100 italic">
+                            “ Pour moi, l'engagement est 
+                                étroitement lié à l'épanouissement 
+                                personnel et à la confiance parmi les 
+                                membres d'une équipe. Quel que soit 
+                                le niveau des enjeux - sauver des vies 
+                                lors des missions du GIGN, mener à 
+                                bien des projets professionnels ou 
+                                personnels -, l'engagement est un 
+                                formidable moteur pour passer à 
+                                l'action. "
+                        </h2>
+                        <div class="bg-lightBlue-200 lg:mt-7 mt-6 lg:py-6 py-4 lg:px-8 px-6">
+                            <span class="lg:text-xl lg:leading-6 leading-normal font-bold text-lg text-dark-100">Que se passe-t-il lorsque l'on applique des <br class="max-sm:hidden">
+                                préceptes du GIGN à la vie quotidienne ?
+                                </span>
+                            <p class="section-paragraph lg:pt-4 pt-3.5 text-dark-100">
+                                Franck Pierrot utilise son expérience en tant que chef 
+                                    de groupe pour apporter une nouvelle vision de 
+                                    l'engagement dans le travail comme dans la vie 
+                                    privée, à travers une méthode en sept préceptes.                        
+                            </p>
+                        </div>
+                        <div class="lg:pt-8 md:pt-7 pt-6">
+                            <a href="" class="btn mx-auto">
+                                DÉCOUVRIR MON PARCOURS
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ABOUT -->
+
+    <!-- TRUST -->
+    <section class="lg:pt-12 md:pt-10 pt-8">
+        <div class="container">
+            <h2 class="section-heading text-dark-100 text-center">
+                ILS ME FONT CONFIANCE
+            </h2>
+            <div class="flex max-sm:w-full justify-between max-sm:overflow-x-scroll max-sm:flex-nowrap flex-wrap lg:pt-7 pt-5">
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-1.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-2.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-3.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-4.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-5.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-6.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-7.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-8.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-9.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-10.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-11.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-12.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-14.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-15.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-16.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-17.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-18.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-19.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-20.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-21.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-22.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-23.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-24.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-25.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-26.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-27.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-28.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-29.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-30.svg" alt="">
+                    </div>
+                </div>
+                <div class="lg:w-1/6 sm:w-1/5 min-w-mediumWidth">
+                    <div>
+                        <img src="../src/img/logo-31.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- TRUST -->
+
+    <!-- FOOTER -->
+    <footer class="bg-footer bg-cover bg-center bg-no-repeat lg:mt-11 md:mt-8 mt-7 sm:pt-5 pt-10">
+        <div class="container">
+            <div class="flex max-md:flex-col-reverse md:flex-nowrap flex-wrap items-center">
+                <div class="md:w-2/4 w-full">
+                    <div class="drop-shadow-lightShadow">
+                        <img src="../src/img/footer-img.png" class="max-lg:mx-auto max-sm:w-2/4" alt="">
+                    </div>
+                </div>
+                <div class="md:w-2/4 w-full max-md:flex justify-center max-md:text-center max-md:mb-7">
+                    <div class="xl:w-2/4 w-full text-center">
+                        <a href="">
+                            <img src="../src/img/footer-logo.svg" class="max-sm:w-48 mx-auto" alt="">
+                        </a>
+                        <h3 class="common-style lg:pt-5 pt-4 lg:pb-7 pb-5 text-dark-200">Ex-GIGN, conférencier <br>& mentor de managers</h3>
+                        <div>
+                            <a href="" class="btn mx-auto">
+                                JE RÉSERVE MA CONFÉRENCE
+                            </a>
+                        </div>
+                        <div class="lg:pt-16 md:pt-14 pt-12">
+                            <h4 class="common-style text-dark-200">Suivez-moi sûr :</h4>
+                            <div class="flex items-center justify-center max-lg:justify-center social-icons lg:pt-6 pt-5">
+                                <div>
+                                    <a href="">
+                                        
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="">
+                                        
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="">
+                                        
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="">
+                                        
+                                    </a>
+                                </div>
+                                <div>
+                                    <a href="">
+                                        
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- COPYRIGHT -->
+        <div class="bg-white lg:py-3 py-2 relative z-10 px-3">
+            <div class="flex justify-center text-dark-100 font-normal">
+                <p class="text-xs font-normal">© COPYRIGHT FRANCK PIERROT. TOUS DROITS RÉSERVÉS</p>
+                <span class="text-xs inline-block lg:pl-7 pl-5">MENTIONS LÉGALES</span>
+                <span class="text-xs inline-block lg:pl-7 pl-5"> DESIGN : AGENCE K2</span>
+            </div>
+        </div>
+        <!-- COPYRIGHT -->
+    </footer>
+    <!-- FOOTER -->
+
+
+
+</body>
+</html>
+
+<!-- JS REFERENCE -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+<script src="../src/js/main.js"></script>

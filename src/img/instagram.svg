@@ -1,0 +1,12 @@
+<svg id="instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_357" data-name="Rectangle 357" width="24" height="24" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1038" data-name="Group 1038">
+    <g id="Group_1037" data-name="Group 1037" clip-path="url(#clip-path)">
+      <path id="Path_333" data-name="Path 333" d="M20.247,0H3.753A3.754,3.754,0,0,0,0,3.753V20.247A3.754,3.754,0,0,0,3.753,24H20.247A3.753,3.753,0,0,0,24,20.247V3.753A3.753,3.753,0,0,0,20.247,0M17.138,3.31a.67.67,0,0,1,.67-.669h2.9a.67.67,0,0,1,.67.669v2.9a.67.67,0,0,1-.67.669h-2.9a.67.67,0,0,1-.67-.669ZM7.576,10.268a4.75,4.75,0,0,1,8.848,0A4.707,4.707,0,0,1,16.752,12a4.752,4.752,0,0,1-9.5,0,4.707,4.707,0,0,1,.328-1.733m13.882,9.98a1.213,1.213,0,0,1-1.211,1.211H3.753a1.211,1.211,0,0,1-1.209-1.211v-9.98H4.912A7.3,7.3,0,1,0,19.294,12a7.245,7.245,0,0,0-.207-1.733h2.372Z" fill="#fff" fill-rule="evenodd"/>
+    </g>
+  </g>
+</svg>

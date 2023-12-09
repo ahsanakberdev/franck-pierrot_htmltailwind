@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21" height="21" viewBox="0 0 21 21">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_351" data-name="Rectangle 351" width="21" height="21" transform="translate(0 0)" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="linkedin" transform="translate(-944 -4313)">
+    <g id="LINKEDIN-2" data-name="LINKEDIN" transform="translate(944 4313)">
+      <g id="Group_1026" data-name="Group 1026">
+        <g id="Group_1025" data-name="Group 1025" clip-path="url(#clip-path)">
+          <path id="Path_325" data-name="Path 325" d="M.346,6.973H4.7V21H.346ZM2.525,0A2.529,2.529,0,1,1,0,2.526,2.527,2.527,0,0,1,2.525,0" fill="#fff"/>
+          <path id="Path_326" data-name="Path 326" d="M7.433,6.973h4.172V8.891h.058a4.574,4.574,0,0,1,4.119-2.267c4.405,0,5.218,2.9,5.218,6.682V21H16.653V14.18c0-1.626-.033-3.719-2.262-3.719-2.265,0-2.61,1.77-2.61,3.6V21H7.433Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <path id="Color_Overlay" data-name="Color Overlay" d="M960.653,4334v-6.82c0-1.626-.034-3.719-2.262-3.719-2.263,0-2.609,1.769-2.609,3.6V4334h-4.348v-14.027h4.172v1.918h.057a4.575,4.575,0,0,1,4.12-2.268c4.4,0,5.217,2.9,5.217,6.682V4334Zm-16.308,0v-14.027H948.7V4334ZM944,4315.526a2.523,2.523,0,1,1,2.524,2.531A2.525,2.525,0,0,1,944,4315.526Z" fill="#fff"/>
+  </g>
+</svg>
